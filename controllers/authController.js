@@ -2,6 +2,7 @@ import { compare } from 'bcrypt';
 import { comparePassword, hashPassword } from '../helpers/authHelper.js';
 import userModel from '../models/userModel.js';
 import JWT from "jsonwebtoken";
+import { isBefore, differenceInYears } from 'date-fns';
 
 export const registerController = async (req,res) => {
     try {
@@ -34,6 +35,18 @@ export const registerController = async (req,res) => {
                 message:'Already Registered, please login',
             });
         }
+
+        const today = new Date();
+        const birthDate = new Date(DOB);
+        const age = differenceInYears(today, birthDate);
+
+        if (age < 18) {
+            return res.status(200).json({
+                success: false,
+                message: 'You must be at least 18 years old to register.',
+            });
+        }
+
         //register user
         const hashedPassword = await hashPassword(password);
         //save

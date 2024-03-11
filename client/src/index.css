@@ -90,3 +90,9 @@
   background-color: black;
   color: white;
 }
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}

@@ -6,7 +6,7 @@ import SearchInput from "./Form/SearchInput";
 import useCategory from "../hooks/useCategory";
 import { useCart } from "../context/cart";
 import { Badge } from "antd";
-
+import "../styles/Header.css";
 const Header = () => {
   const [auth, setAuth] = useAuth();
   const [cart] = useCart();
@@ -37,7 +37,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              🛒 Ecommerce App
+              🛒 Virtual Vault
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <SearchInput />

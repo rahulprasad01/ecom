@@ -33,6 +33,8 @@
     "slugify": "^1.6.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
     "sonarqube-scanner": "^3.3.0"
   }
 }

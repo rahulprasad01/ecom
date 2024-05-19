@@ -1,0 +1,9 @@
+2024-05-16T03:16:15.756Z - info: Website generation started at 11:16:15 AM
+2024-05-16T03:16:15.861Z - info: Building assets...
+2024-05-16T03:16:15.898Z - info: Assets built
+2024-05-16T03:16:15.899Z - info: Generating pages...
+2024-05-16T03:16:16.584Z - info: Pages built
+2024-05-16T03:16:16.839Z - info: Site data built
+2024-05-16T03:16:16.844Z - info: Website generation complete! Total build time: 1.241s
+2024-05-16T03:16:16.886Z - info: Serving "/Users/rp/ecom/client/src/_site" at http://127.0.0.1:8080
+2024-05-16T03:16:16.886Z - info: Press CTRL+C to stop ...

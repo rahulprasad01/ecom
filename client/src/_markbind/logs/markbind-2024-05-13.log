@@ -1,0 +1,65 @@
+2024-05-13T03:23:17.104Z - info: Website generation started at 11:23:17 AM
+2024-05-13T03:23:17.210Z - info: Building assets...
+2024-05-13T03:23:17.258Z - info: Assets built
+2024-05-13T03:23:17.259Z - info: Generating pages...
+2024-05-13T03:23:18.065Z - info: Pages built
+2024-05-13T03:23:18.314Z - info: Site data built
+2024-05-13T03:23:18.314Z - info: Website generation complete! Total build time: 1.302s
+2024-05-13T03:23:18.351Z - info: Serving "/Users/rp/ecom/client/src/_site" at http://127.0.0.1:8080
+2024-05-13T03:23:18.351Z - info: Press CTRL+C to stop ...
+2024-05-13T03:29:26.314Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/404.md
+2024-05-13T03:29:26.315Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/App.test.js
+2024-05-13T03:29:26.316Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/_markbind/layouts/404.md
+2024-05-13T03:29:26.316Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/_markbind/layouts/default.md
+2024-05-13T03:29:26.317Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/_markbind/variables.md
+2024-05-13T03:29:26.317Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1a.md
+2024-05-13T03:29:26.324Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1c.md
+2024-05-13T03:29:26.324Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1d.md
+2024-05-13T03:29:26.324Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1b.md
+2024-05-13T03:29:26.325Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1e.md
+2024-05-13T03:29:26.325Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1f.md
+2024-05-13T03:29:26.345Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2a.md
+2024-05-13T03:29:26.345Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic1g.md
+2024-05-13T03:29:26.346Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2b.md
+2024-05-13T03:29:26.346Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/_markbind/variables.json
+2024-05-13T03:29:26.346Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2c.md
+2024-05-13T03:29:26.347Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2d.md
+2024-05-13T03:29:26.347Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2f.md
+2024-05-13T03:29:26.347Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2g.md
+2024-05-13T03:29:26.347Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic2e.md
+2024-05-13T03:29:26.347Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic3.md
+2024-05-13T03:29:26.352Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic4b.md
+2024-05-13T03:29:26.449Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic5.md
+2024-05-13T03:29:26.449Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/index.md
+2024-05-13T03:29:26.450Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/site.json
+2024-05-13T03:29:26.450Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/stylesheets/main.css
+2024-05-13T03:29:26.502Z - info: [11:29:26 AM] Reload for file deletion: /Users/rp/ecom/client/src/contents/topic4a.md
+2024-05-13T03:29:26.513Z - info: [11:29:26 AM] Reload for file add: /Users/rp/ecom/client/src/pages/Auth/Login.test.js
+2024-05-13T03:29:26.514Z - info: [11:29:26 AM] Reload for file add: /Users/rp/ecom/client/src/pages/Auth/Register.test.js
+2024-05-13T03:29:27.358Z - info: Pages or site config modified, updating pages...
+2024-05-13T03:29:27.370Z - debug: Assets removed
+2024-05-13T03:29:27.371Z - warn: Rebuilding all pages...
+2024-05-13T03:29:27.371Z - info: Generating pages...
+2024-05-13T03:29:27.375Z - error:  Error: template not found: index.md
+    at createTemplate (/Users/rp/ecom/client/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:96:13)
+    at next (/Users/rp/ecom/client/node_modules/nunjucks/src/lib.js:260:7)
+    at handle (/Users/rp/ecom/client/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:135:9)
+    at /Users/rp/ecom/client/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/Users/rp/ecom/client/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/Users/rp/ecom/client/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/Users/rp/ecom/client/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/Users/rp/ecom/client/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/Users/rp/ecom/client/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/Users/rp/ecom/client/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/Users/rp/ecom/client/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+    at /Users/rp/ecom/client/node_modules/@markbind/core/src/Page/index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/rp/ecom/client/node_modules/@markbind/core/src/Page/index.js:27:12)
+    at Page.generate (/Users/rp/ecom/client/node_modules/@markbind/core/src/Page/index.js:477:16)
+2024-05-13T03:29:27.376Z - warn:  Error: Error while generating /Users/rp/ecom/client/src/index.md
+    at Site.<anonymous> (/Users/rp/ecom/client/node_modules/@markbind/core/src/Site/index.js:971:28)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/rp/ecom/client/node_modules/@markbind/core/src/Site/index.js:29:65)
+2024-05-13T03:29:27.547Z - info: Assets built
+

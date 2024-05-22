@@ -23,6 +23,8 @@
     }
   ],
   "deploy": {
+    "remote": "https://github.com/rahulprasad01/ecom.git",
+    "branch": "gh-pages",
     "message": "Site Update."
   }
 }

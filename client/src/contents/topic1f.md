@@ -69,13 +69,33 @@ By default, tests will be run on all three browsers: Chromium, Firefox, and WebK
 npx playwright test
 ```
 
+<panel type="primary" header="Exercises">
+  <h3>E2E testing Exercises</h3>
+<p>The example Playwright test provided for you is in the tests folder in a file named trial.spec.cjs. This example test verifies the following functionalities: </p>
+
+<p>1. Navigating to the home page</p>
+<p>2. Clicking on various links such as 'Home', 'Categories', 'All Categories', and 'Cart'</p>
+<p>3. Checking and unchecking product filters</p>
+<p>4. Adding a product to the cart</p>
+<p>5. Navigating to the login page</p>
+
+Your task is to write UI tests to test the following functionalities:
+
+<p>(a) Navigating to the login page</p>
+<p>(b) Filling in the login form and submitting it</p>
+<p>(c) Adding items to the cart</p>
+<p>(d) Navigating through different categories and verifying the filter functionality</p>
+<p>(e) Checking out the items in the cart</p>
+</panel>
+
+````
 ### HTML Test Reports
 
 After your test completes, an HTML Reporter will be generated, which shows you a full report of your tests allowing you to filter the report by browsers, passed tests, failed tests, skipped tests, and flaky tests. You can click on each test and explore the test's errors as well as each step of the test. By default, the HTML report is opened automatically if some of the tests failed.
 
 ```bash
 npx playwright show-report
-```
+````
 
 ### Running the Example Test in UI Mode
 

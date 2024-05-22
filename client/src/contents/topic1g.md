@@ -59,6 +59,24 @@ After conducting a load test with JMeter, it's essential to analyze the results 
 
 By analyzing these metrics, testers can identify performance bottlenecks, optimize system resources, and ensure the application can handle expected loads effectively.
 
+<panel type="primary" header="Exercises">
+  
+  <h3>Load Testing Exercises</h3>
+  <p>Your task is to come up with a test plan and perform load testing on three different components of the application:</p>
+
+  <p>1. Homepage</p>
+  <p>2. Login</p>
+  <p>3. Cart</p>
+
+  <p>For each component, you should:</p>
+
+  <p>(a) Identify and define different workload scenarios (e.g., normal load, peak load, stress load).</p>
+  <p>(b) Perform load testing using JMeter by simulating these workload scenarios.</p>
+  <p>(c) Record and analyze the performance metrics, such as response time, throughput, and error rate.</p>
+
+  <p>Make sure to document your findings and observations for each workload scenario.</p>
+</panel>
+
 <box type="tip" style="background-color: purple; color: white;">
 **Tip:**
 When analyzing load test results, pay close attention to response times, error rates, and resource utilization to identify performance bottlenecks effectively.
